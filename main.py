@@ -33,7 +33,7 @@ async def handle_menfess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not text_content.startswith("mfs!"):
         return
 
-    clean_content = text_content.replace("mfs!", "", 1).strip()
+    clean_content = text_content.replace("mfs!", "💌 ", 1).strip()
     
     try:
         # Kirim ke Channel
