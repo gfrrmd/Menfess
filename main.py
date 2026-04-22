@@ -16,8 +16,8 @@ menfess_data = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Halo! Selamat datang di Bot Menfess Gaydar!.\n\n"
-        "Kirim pesan dengan awalan mfs! agar pesanmu terkirim ke channel."
+        "Halo! Selamat datang di Bot Menfess Gaydar!\n\n"
+        "Kirim pesan dengan awalan mfs! agar pesanmu terkirim ke channel. Kamu juga bisa mengirim Foto, Video, dan media lainnya. Pastikan menggunakan awalan mfs!"
     )
 
 async def handle_menfess(update: Update, context: ContextTypes.DEFAULT_TYPE):
